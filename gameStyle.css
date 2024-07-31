@@ -1,0 +1,121 @@
+#upper-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width:  100%;
+    background-color: rgb(8, 8, 36);
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+
+}
+
+#content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+    
+    
+}
+
+.img-circ:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    
+
+}
+
+.img-circ{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 5px 15px 5px 15px;
+    object-fit: cover;
+
+}
+
+#stone{
+    background-image:  url("rock.png");
+    background-size: cover;
+    align-items:end;
+    /* background-color: pink; */
+}
+
+#paper{
+    background-color: rgb(17, 158, 234);
+}
+
+#scissor{
+    background-color: rgb(158, 158, 181);
+}
+
+#res-sec{
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 5px;
+    height: 90px;
+    width: 100%;
+    border: 2px solid whitesmoke ;
+    background-color: white;
+    color: white;
+  
+
+}
+
+#res-sec p{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border: 2px solid white;    
+    border-radius: 10px;
+    background-color: rgb(25, 173, 25);;
+}
+
+#res-sec p:hover{
+    
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+
+.cont2{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin: 5px 5px 5px 5px;
+    
+}
+
+#you-score{
+    text-align: center;
+    margin: 50px 20px 5px 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+#comp-score{
+    text-align: center;
+    margin: 50px 20px 5px 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
