@@ -1,3 +1,3 @@
-This is my first basic game of stone paper scissor. 
+This is my first basic project of developing the game called "stone paper scissor". 
 <br>
-This game is developed im my learning phase of html, csss and JS.
+This game is developed during my learning phase of html, csss and JS.
